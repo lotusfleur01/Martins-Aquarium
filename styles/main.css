@@ -1,0 +1,33 @@
+#fishtank {}
+.fish {}
+.fish {]
+.container {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between
+
+}
+
+.navigation {
+    margin: 2;
+
+}
+
+.fishlist {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tiplist{
+
+}
+
+.tip{
+    
+}
+
+.bordered {
+    border: 1px dashed goldenrod;
+}
