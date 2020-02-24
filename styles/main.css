@@ -1,33 +1,41 @@
-#fishtank {}
-.fish {}
-.fish {]
-.container {
-    display:flex;
-    flex-wrap:nowrap;
-    justify-content:space-between
 
+@import 'nav.css';
+@import 'fish.css';
+@import 'tips.css';
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .navigation {
-    margin: 2;
-
+    margin: 2em;
 }
 
-.fishlist {
+.navigation__link {
+    padding: 0 1em 0 1em;
+}
+
+.fishList {
     flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
-.tiplist{
-
+.fish__image {
+    width: 8rem;
+    height: 8rem;
 }
 
-.tip{
-    
+.tipList {
+    flex-basis: 20%;
+}
+
+.tip {
+    margin: 1rem 0 2rem 0;
 }
 
 .bordered {
     border: 1px dashed goldenrod;
-}
+} 
